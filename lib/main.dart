@@ -20,6 +20,7 @@ class _MyAppState extends State<MyApp> {
       routes: {
         '/launch_screen': (context) => const LaunchScreen(),
         '/auth_screen': (context) => const AuthScreen(),
+        //
       },
       initialRoute: '/launch_screen',
     );
